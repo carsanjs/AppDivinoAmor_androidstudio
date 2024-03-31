@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Quienes_Somos.Quienes_somos">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="411dp"
+        android:layout_height="736dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f8fafc"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lyuno"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewdoce"
+                        android:layout_width="match_parent"
+                        android:layout_height="281dp"
+                        android:background="@drawable/fondo_quienessomos" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lydos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/purple_suave"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FF7E22CD"
+                        android:gravity="center"
+                        android:text="@string/uno_txt"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lytres"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="@string/brindamos"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3sp"
+                        android:text="@string/amor"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="98dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textww"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Amor"
+                            android:textColor="@color/black"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageViewonce"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lycuetro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/confianza"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="102dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textrr"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Confianza"
+                            android:textColor="@color/black"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageonce"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img_2" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyquinto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtviww"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/compromiso"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tcv"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Compromiso"
+                            android:textColor="@color/black"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imaviwonce"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img_1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyseis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/intregridas"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tewr"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Integridad"
+                            android:textColor="@color/black"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageVwonce1"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img_3" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lysevente"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtvwi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/servicio"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/texttx"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Servicio"
+                            android:textColor="@color/black"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView11once"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img_4" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyocho"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtvoii"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/conciencia"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/texw1w"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Conciencia"
+                            android:textColor="@color/black"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView11punto1"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img_5" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/seven2"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="@string/Que_Logramos"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lydecimo"
+                    android:layout_width="match_parent"
+                    android:layout_height="460dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="#FF7E22CD"
+                    android:backgroundTint="#FF7E22CD"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/idtxc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="@string/Protecion"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewtetaocho"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:gravity="center"
+                        android:text="@string/text_p"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="334dp"
+                        android:layout_height="312dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/circle_gris"
+                        android:backgroundTint="#7E22CC"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageViewdoxxe"
+                            android:layout_width="match_parent"
+                            android:layout_height="304dp"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/img_10" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_once"
+                    android:layout_width="match_parent"
+                    android:layout_height="460dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewsetetenta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="@string/Herramientas"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/text_38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:gravity="center"
+                        android:text="@string/text_her"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="312dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/circle_gris"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagevw_12"
+                            android:layout_width="match_parent"
+                            android:layout_height="304dp"
+                            app:srcCompat="@drawable/img_9" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="460dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="#FF7E22CD"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textVi_sevent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="@string/Recursos"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewtwty_w"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:gravity="center"
+                        android:text="@string/text_rec"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="312dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/circle_gris"
+                        android:backgroundTint="#7E22CC"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageVw_docex"
+                            android:layout_width="match_parent"
+                            android:layout_height="304dp"
+                            app:srcCompat="@drawable/img_8" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly1_trece"
+                    android:layout_width="match_parent"
+                    android:layout_height="460dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="@string/Espiritualidad"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:gravity="center"
+                        android:text="@string/text_es"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="312dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/circle_gris"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagevw1_doce"
+                            android:layout_width="match_parent"
+                            android:layout_height="304dp"
+                            app:srcCompat="@drawable/img_7" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <include
+                    layout="@layout/footer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

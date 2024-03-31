@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="377dp"
+        android:layout_height="718dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f8fafc"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lyuno"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewdoce"
+                        android:layout_width="match_parent"
+                        android:layout_height="281dp"
+                        android:background="@drawable/fondo_quienessomos" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lydos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/purple_suave"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/uno_txt"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lytres"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="@string/brindamos"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amor" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="98dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textww"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+
+                        <ImageView
+                            android:id="@+id/imageViewonce"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lycuetro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/confianza" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="102dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textrr"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+
+                        <ImageView
+                            android:id="@+id/imageonce"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img_2" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyquinto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtviww"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/compromiso" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tcv"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+
+                        <ImageView
+                            android:id="@+id/imaviwonce"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img_1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyseis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tewr"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+
+                        <ImageView
+                            android:id="@+id/imageVwonce1"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img_3" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lysevente"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtvwi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/servicio" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/texttx"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+
+                        <ImageView
+                            android:id="@+id/imageView11once"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img_4" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyocho"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtvoii"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/conciencia" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/texw1w"
+                            android:layout_width="275dp"
+                            android:layout_height="match_parent"
+                            android:text="TextView" />
+
+                        <ImageView
+                            android:id="@+id/imageView11punto1"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img_5" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/seven2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Que_Logramos" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lydecimo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/idtxc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Protecion" />
+
+                    <TextView
+                        android:id="@+id/textViewtetaocho"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_p" />
+
+                    <ImageView
+                        android:id="@+id/imageViewdoxxe"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_once"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewsetetenta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Herramientas" />
+
+                    <TextView
+                        android:id="@+id/text_38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_her" />
+
+                    <ImageView
+                        android:id="@+id/imagevw_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textVi_sevent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Recursos" />
+
+                    <TextView
+                        android:id="@+id/textViewtwty_w"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_rec" />
+
+                    <ImageView
+                        android:id="@+id/imageVw_docex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly1_trece"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Espiritualidad" />
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_es" />
+
+                    <ImageView
+                        android:id="@+id/imagevw1_doce"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_cuatorce"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/contactanos" />
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/purple_suave"
+                        android:text="@string/ante_footer" />
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/purple_medio"
+                        android:text="@string/copryn" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

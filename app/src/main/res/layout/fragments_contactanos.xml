@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.contactanos.ContactosFragment">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="731dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/title_contactanos"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="685dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="338dp"
+                    android:layout_height="370dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/circle_gris"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="27dp"
+                    tools:layout_editor_absoluteY="200dp">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:text="Codigo"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/idmesssaje"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/input_circle"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txtnombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:text="Nombre"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/editxtnombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/input_circle"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:text="Correo Elecrtonico"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/editextcorreo"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/input_circle"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:text="Mensaje"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/editmessage"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/input_circle"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp" />
+
+                    <Button
+                        android:id="@+id/btnenviar"
+                        android:layout_width="167dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:backgroundTint="#FF7E22CD"
+                        android:text="@string/enviar" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_layouno"
+                    android:layout_width="413dp"
+                    android:layout_height="270dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                    tools:ignore="InvalidId">
+
+                    <include
+                        layout="@layout/footer"
+                        android:layout_width="match_parent"
+                        android:layout_height="286dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

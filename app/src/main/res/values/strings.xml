@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name"> Divino Amor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Contactanos</string>
+    <string name="notice">Noticias</string>
+    <string name="qs">Quienes Somos?</string>
+    <string name="dona">Donaciones</string>
+
+    <!--    _______________________________________________________________________________-->
+    <string name="da">Divino Amor</string>
+    <string name="hg_da">Hogar Divino Amor</string>
+    <string name="mission">Nuestra Misión</string>
+    <string name="vision">Nuestra Visión</string>
+
+    <string name="descripcion">No hay mayor alegria que la de poder regalarle una sonrisa a un niño</string>
+    <string name="primer_txt">La Fundacion Hogar Divino Amor ofrece una atención a los niños desamparados menosres de cinco años y en algunos casos menores de siste previo estudio de la situación del menor, con depravación socio afectiva, ptomoviendo la educación, capacitación e integración con otros</string>
+    <string name="mision_t">La Fundación Hogar Divino Amor está comprometida a desarrollar su acción comunitaria con la recepción de niños y niñas menores de co años en situación de abandono, con grado de desnutrición avanzada, para mejorar Integralmente sus condiciones, recuperando prioritariamente su situación nutricional, sin desatender aspectos importantes para su integridad y bienestar.Propendiendo por una formación con sentido Cristiano, con valores y principios ciudadanos, promoviendo la educación, el talento humano, motivando su identidad familiar, cultural y productiva, preparándolos en la convivencia para ser y actuar como promotores en el mejoramiento de sus condiciones de vida familiar y comunitaria.Para lograr todo esto, es una responsabilidad tramitar vínculos con instituciones a nivel nacional e internacional que pueda servir de apoyo a la Misión frazada.</string>
+    <string name="vision_t">La Fundación Hogar Divino Amor en el año 2025 será una Institución ejemplo en atención al menor en situación de abandono y desnutrición, ofreciendo formación orientada al desarrollo humano, integrada por un equipo humano interdisciplinario de altas cualidades personales y morales, dotada de adecuada infraestructura, excelentes servicios, administración eficiente y participativa, con recursos físicos, técnicos y financieros que permitan realizar con eficiencia y calidad su labor, para generar ciudadanos éticos, dignos, con espíritu Cristiano, talentosos e integrales.</string>
+    <string name="ante_footer">La Fundación Hogar Divino Amor brinda una atención integral a niños desamparados menores de 5 años (y hasta 7 en algunos casos) con problemas socio-afectivos, fomentando su educación, desarrollo y integración con otros niños en igualdad de condiciones, para mejorar su calidad de vida durante su estancia en la fundación. Con un enfoque en la igualdad para todos y sin discriminación.</string>
+    <string name="copryn">© 2023 Copyright: Divino Amor</string>
+    <string name="title_noticias">¡Mantente Informado sobre las Últimas Novedades de Nuestra Fundación!</string>
+    <string name="txt_1_noticias">¡Te invitamos a explorar nuestras noticias y compartir con nosotros la alegría de hacer una diferencia en la vida de los más pequeños! ¡Gracias por tu apoyo a la Fundación Hogar Divino Amor!</string>
+    <string name="quienessomos_title">Nuestros servicios
+Amor
+Compromiso
+servicio
+</string>
+    <string name="title_Txt_quienesomos">Deseas contactarnos contàctanos aquí</string>
+    <string name="uno_txt">La Fundación Hogar Divino Amor ofrece una atención integral a los niños desamparados menores de cinco años y en algunos casos menores de siete previo estudio de la situación del menor, con depravación socio afectiva, promoviendo la educación, capacitación e integración con otros menores en igualdad de condiciones, logrando una mejor vida durante su estancia en la fundación. Los servicios que ofrece la Fundación se basan en el principio de igualdad para todos y absolutamente ninguna discriminación.</string>
+    <string name="brindamos">LO QUE BRINDAMOS</string>
+    <string name="amor">Deseo profundo y desinteresado de darles a los niños, niñas y adolescentes beneficiarios de la fundación Ecosueños la oportunidad de salir adelante en su proyecto de vida, en forma digna y feliz. Es el elemento pedagógico transformador más valioso que se usa en el trato hacia los niños, niñas y adolescentes. Es el componente edificante más importante para todos los que participen del proyecto.</string>
+    <string name="compromiso">Se entiende como la disposición que reúne todos los esfuerzos de Ecosueños en el momento que se requiera en pro de los niños, niñas y adolescentes, y su futuro. Son todas las decisiones y acciones que transforman las promesas de Ecosueños en realidades tangibles.</string>
+    <string name="servicio">Es la entrega desinteresada para ayudar constantemente a los niños, niñas y adolescentes en la construcción de sus sueños y de un mejor vivir</string>
+    <string name="confianza">Aceptar libremente creer en los demás para generar relaciones de respeto transparencia y certeza.</string>
+    <string name="intregridas">Son los pensamientos y acciones coherentes, rectos y honorables que dan cuenta de los compromisos, promesas y principios de Ecosueños.</string>
+    <string name="conciencia">Ecosueños considerara relevante participar con las instituciones privadas o estatales, bien sean: colegios, fundaciones o asociaciones, que trabajen en promover y apoyar los derechos de la niñez y adolescencia, así Ecosueños mejorará sus procesos internos y cooperará en un objetivo conjunto con éstas instituciones: el bienestar de los niños, niñas y adolescentes de Colombia.</string>
+
+    <string name="Que_Logramos">Que Logramos</string>
+    <string name="Protecion">Protecion</string>
+    <string name="text_p">Brindar protección a los niños, niñas y adolescentes que hagan parte de la fundación, un hogar que les garantice abrigo y seguridad en condiciones adecuadas de higiene y convivencia.</string>
+    <string name="Herramientas">Herramientas</string>
+    <string name="text_her">Brindar las herramientas para lograr la integración en un futuro de los niños y niñas, de manera competente a la sociedad.</string>
+    <string name="Recursos">Recursos</string>
+    <string name="text_rec">Obtener los recursos en dinero, especie y servicios que garanticen la sostenibilidad y crecimiento en el tiempo de la fundación Divino Amor.</string>
+    <string name="Espiritualidad">Espiritualidad</string>
+    <string name="text_es">Buscar que cada niño y niña desarrolle su proyecto de vida desde las áreas intelectual, física, espiritual, afectiva y moral.</string>
+
+
+    <string name="title_contactanos">Ponte en contacto con nosotros</string>
+    <string name="Nombre">Ingresa tu Nombre</string>
+    <string name="Correoelectrónico">Ingresa tu Correo electrónico</string>
+    <string name="Mensaje">Ingresa tu Mensaje</string>
+    <string name="enviar">Enviar</string>
+
+    <string name="NuestrosRecuerdos_galery">Nuestros Recuerdos</string>
+    <string name="title_u">Cada evento y días de alegría de nuestros niños están plasmados en nuestra galería</string>
+
+    <string name="title_donaciones">Tu aporte es valioso.</string>
+    <string name="text_title">Que la solidaridad sea más grande que la necesidad que nos convoca.</string>
+    <string name="CORREO">CORREO</string>
+    <string name="DESCRIPCION">DESCRIPCION</string>
+    <string name="MONEDA">MONEDA</string>
+    <string name="MONTODONAR">MONTO A DONAR</string>
+    <string name="bntd">Donar</string>
+
+
+    <string name="sesion_title">Inicio de ssesion</string>
+    <string name="usuario">Nombre de usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Iniciarsesion">Iniciar Sesión</string>
+    <string name="cerrar">Cerrar</string>
+
+</resources>

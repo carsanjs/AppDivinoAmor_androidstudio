@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "700279002403",
+    "firebase_url": "https://divino-amor-default-rtdb.firebaseio.com",
+    "project_id": "divino-amor",
+    "storage_bucket": "divino-amor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700279002403:android:0007f2f8aaa51aabcbe896",
+        "android_client_info": {
+          "package_name": "com.example.appdivinoamor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700279002403-08sq1gkngttu0ak6b28sqdaifp3qctm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ9aF_-IMwf_QoYOL2vHppl_7VtSEp2jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700279002403-08sq1gkngttu0ak6b28sqdaifp3qctm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700279002403:android:46ac6df0c3abfd66cbe896",
+        "android_client_info": {
+          "package_name": "com.example.divinoamor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700279002403-08sq1gkngttu0ak6b28sqdaifp3qctm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ9aF_-IMwf_QoYOL2vHppl_7VtSEp2jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700279002403-08sq1gkngttu0ak6b28sqdaifp3qctm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700279002403:android:84565240150f0485cbe896",
+        "android_client_info": {
+          "package_name": "com.example.hdivinoamor_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700279002403-08sq1gkngttu0ak6b28sqdaifp3qctm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ9aF_-IMwf_QoYOL2vHppl_7VtSEp2jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700279002403-08sq1gkngttu0ak6b28sqdaifp3qctm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
